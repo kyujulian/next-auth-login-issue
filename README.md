@@ -3,13 +3,6 @@
 TL;DR : When using drizzle-adapter package the adapter cannot retrieve the 'provider' and 'providerAccountId' on the database,
 causing the auth to throw OAuthAccountNotLinked Error.
 
-NextAuth.js is a complete open-source authentication solution.
-
-This is an example application that shows how `next-auth` is applied to a basic Next.js app.
-
-The deployed version can be found at [`next-auth-example.vercel.app`](https://next-auth-example.vercel.app)
-
-Go to [next-auth.js.org](https://next-auth.js.org) for more information and documentation.
 
 ## Reprodution
 
