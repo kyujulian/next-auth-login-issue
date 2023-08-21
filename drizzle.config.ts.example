@@ -1,0 +1,12 @@
+import type { Config } from "drizzle-kit";
+
+export default {
+  schema: "./drizzle/schema.ts",
+  out: "./drizzle/",
+  driver: "turso",
+  dbCredentials: {
+    url: "libsql://adapting-spitfire-kyujulian.turso.io",
+    authToken: "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2OTIxODQxMDAsImlkIjoiZTg2MjZhMzUtMzg3OC0xMWVlLThiYWItNWVlYzE1MjE2ZDM1In0.RyxnJAQlH_csSWuSc6EysaGE9_wbMilhf_C9u0OyDwB4NAs_qwEIJsW3ko_AvlUkfW8P46FZK06Hnxbq1rnRDw"
+  }
+} satisfies Config;
+
